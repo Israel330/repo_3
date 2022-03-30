@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&family=Smooch+Sans:wght@100&display=swap');
+*{
+	font-family: 'Smooch Sans', sans-serif;
+	
+	}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image: url(imagenes/space-4.jpg);
+	background-repeat: ;
+	text-align: center;
+
+}
+----------------------------------------------------/*nav aplicando bts*/
+.nav{
+     background-color: rgb(78, 41, 214, 0.1);
+	 text-align: center;
+	 display: flex;
+	 list-style: none;
+     justify-content: space-around;
+
+}
+.nav-items{
+	font-family: 'Roboto', sans-serif; 
+	                 font-size: 1.5rem;
+	                 color: rgb(255, 255, 255);
+	                 text-decoration: none;
+	                 text-align: center;
+	                 justify-content:space-around;
+
+}
+.btn_color{
+	background-color: rgb(255, 255, 255);
+	border-color: rgb(0, 0, 0);
+}
+
+----------------------------------------------------/*nav
+nav{
+	 background-color: rgb(78, 41, 214, 0.3);
+	 text-align: center;
+	 display: flex;
+}
+	
+     nav ul {
+         list-style: none;
+         justify-content: center;
+}
+
+        nav ul li {
+
+        	 display: inline-block;
+        	 padding: 2rem;
+        	 text-align: center;
+        	 justify-content: center;
+}
+
+
+                nav ul li a {
+
+	                 font-family: 'Roboto', sans-serif; 
+	                 font-size: 1.5rem;
+	                 color: rgb(255, 255, 255);
+	                 text-decoration: none;
+	                 text-align: center;
+	                 justify-content: center;
+
+}
+
+
+-------------------------------------------------/*header*/
+.grid-container{
+     display: grid;
+     grid-template-rows: 250px 250px;
+     grid-template-columns: repeat(2, 1fr);
+     grid-column-gap: 4rem;
+     grid-template-areas: "img_1 img_2" "video video" ;
+     width: 100% ;
+     padding-left: 50rem;
+     
+  
+}
+
+
+.img_1{
+	grid-area: img_1;
+	width: 500px;
+	height: 250px;
+	
+}
+
+.img_2 {
+	grid-area: img_2;
+	width: 500px;
+	height: 250px;
+	padding-left: 10rem ;
+
+	
+}
+
+
+.video{
+	grid-area: video;
+	width: 500px;
+	height: 250px;
+	padding-left: 5rem ;
+	
+}
+
+
+
+
+
+
+
+------------------------------------------------/*modificacion de los h*/
+
+h2,h3{
+	color: rgb(255, 255, 255);
+	font-size: 4rem;
+	font-weight: 300;
+
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-size: 4rem;
+	font-weight: 300;
+	list-style-type: none;
+}
+
+---------------------------------------------/*modificacion del texto*/
+
+.texto {
+	color: rgb(255, 255, 255);
+	font-family:'Roboto', sans-serif; 
+	font-size: 5rem;
+	line-height: 3rem;
+	background-color: rgb(76, 68, 102, 0.2);
+}
+
+.texCenter{
+	text-align: center;
+	background-color: rgb(109, 96, 156, 0.2);
+	font-size: 5rem;
+}
+
+.texto_2{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif; 
+    font-size: 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+#pie{
+	font-size: 5rem;
+
+}
+
+.texto_3{
+	color: rgb(255, 255, 255);
+	font-family:'Roboto', sans-serif; 
+	font-size: 2rem;
+}
+
+.texto_4 {
+	color: rgb(255, 255, 255);
+	font-size: 1.5rem;
+}
+
+
+#h5{
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-size:3rem;
+	font-weight: 500;
+	list-style-type: none;
+	background-color: rgb(117, 71, 39,0.1)
+
+}
+
+
+
+#accordeon{
+	background-color: rgb(80, 86, 115);
+}
+
+----------------------------------/*modificacion de las listas del nav*
+
+.lista{
+
+    list-style: none;
+    font-family: 'Roboto', sans-serif; 
+	font-size: 1.5rem;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
+
+
+
+
+
+---------------------------------/*modificacion de las tablas*/
+
+
+#tabla-estilo{
+	width: 3rem;
+	margin: 1.5 auto;
+	width: 50%;
+	
+
+}
+.tabla{
+	background-color: rgb(255, 255, 255, 0.3);
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+
+}
+
+td, tr, th {
+	border: solid 1 rem;
+	color: rgb(0, 0, 0);
+	padding: 0;
+
+} 
+
+
+---------------------/*footer*/------------------------------
+footer{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+             footer a{
+                 padding: 10 rem;
+           	     margin-left: 10rem;
+           	     justify-content: center;
+} 
+
+                     footer a img {
+                	     justify-content: center;
+                	     padding: 10 rem;
+                	     margin-left:10rem ;
+}
+
+
+
+--------------------------------------------------/*audio*/
+
+
+
+.audio{
+	margin-top: 30rem;
+	margin-bottom: 30 rem;
+	margin-left: 100rem;
+}
+
+              
+
+
+---------------------------/*eperimento */
+
+
+.header-conteiner{
+	display: grid;
+	width: 99%;
+	grid-row-gap: 100px;
+	grid-template-columns: repeat(4, 300px);
+	grid-template-rows: 300px 300px;
+	grid-template-areas:  "fot1 fot2"
+	                      "fot3 fot4" 
+	                      "fot5 fot6"
+	                      "fot7 fot8";
+
+}
+
+.img_1{
+	grid-area: fot1;
+	
+}
+.img_2{
+	grid-area: fot2;
+	
+}
+.img_3{
+	grid-area: fot3;
+}
+.img_4{
+	grid-area: fot4;
+}
+.img_5{
+	grid-area: fot5;
+}
+.img_6{
+	grid-area: fot6;
+}
+.img_7{
+	grid-area: fot7;
+}
+.img_{
+    grid-area: fot8;
+}
+------------------------------------------/*media*/
+
+@media only screen and (max-width: 834px ) and (mind-width: 415px);
+	html{
+		display: grid;
+		grid-template-columns:  1fr;
+		grid-template-rows: auto;
+		grid-template-areas: "nav" "fotos" "audio" "texto" "footer";
+		text-align: center;
+}
+body{
+    background-image: url(imagenes/space-4.jpg);
+    background-repeat: ;
+	text-align: center;
+}
+nav{
+	display: flex ;
+	flex-direction: column;
+}
+section{
+	grid-area: fotos;
+}
+div{
+	grid-area: audio;
+}
+section{
+	grid-area: texto;
+}
+footer{
+	grid-area: footer;
+	display: inline-block;
+}
+.img_1{
+	width: 225px;
+	height: 300px;
+}
+}
+
+----------------------------------------------/*footer media*/
+.footer{
+	display: inline-block;
+	
+
+}
+
+
+------------------------------------------------/*carousel*/
+
+#h5{
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto', sans-serif;
+	font-size: 8rem;
+	font-weight: 500;
+	list-style-type: none;
+	background-color: grey;
+
+}
